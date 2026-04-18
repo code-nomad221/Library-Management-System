@@ -129,6 +129,8 @@ All data loaded successfully.
 
 - Returning a book with a fine
 
+![image alt](https://github.com/code-nomad221/Library-Management-System/blob/fa6343bc264e42edd5edf9efee74b15f2a36f62b/returning%20with%20fine.png)
+
 
 - Waitlist flow
 
