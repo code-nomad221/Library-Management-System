@@ -282,9 +282,9 @@ float library::checkFine(int memberID)
         if (members[i]->getMemberid() == memberID)
         {
             float fine = members[i]->getFines();
-            cout << "Total fine for a member" << memberID << "is: Rs" << totalFine << endl;
+            cout << "Total fine for a member" << memberID << "is: Rs" << fine << endl;
             // cout << "Rs" << totalFine;
-            return totalFine;
+            return fine;
         }
     }
     cout << "ERROR: Member not found." << endl;
