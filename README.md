@@ -134,6 +134,8 @@ All data loaded successfully.
 
 - Waitlist flow
 
+![image alt](https://github.com/code-nomad221/Library-Management-System/blob/07ccb515fe810f19e510d16270c7fe1834d10a64/waitlist.png)
+
 
 - Saved data files
 
