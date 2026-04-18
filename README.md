@@ -148,6 +148,11 @@ All data loaded successfully.
 
 ![image alt](https://github.com/code-nomad221/Library-Management-System/blob/8d87226cf516cc3a8ff2b8aeba2c8f3f7c9e198e/members.txt.png)
 
+
+**transactions.txt**
+
+![image alt](https://github.com/code-nomad221/Library-Management-System/blob/6530347240fe0e2917e760dbc0f33e654ab85a5c/transaction.txt.png)
+
 - Data reload on startup
 
 --------------------------------------------------------------------------------------------------------------------------
