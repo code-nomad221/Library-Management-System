@@ -155,6 +155,8 @@ All data loaded successfully.
 
 - Data reload on startup
 
+  ![image alt](https://github.com/code-nomad221/Library-Management-System/blob/4b4389cc9b1a077875edd30a7f71c24acdcd09d0/data%20reload.png)
+
 --------------------------------------------------------------------------------------------------------------------------
 
 Challenges & How I Solved Them
