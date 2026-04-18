@@ -119,6 +119,9 @@ All data loaded successfully.
 ![image alt](https://github.com/code-nomad221/Library-Management-System/blob/da01295a95e27e2453c634b34386fc5ddf3011cd/main%20menu.png)
 
 - Issuing a book
+  ![image alt](https://github.com/code-nomad221/Library-Management-System/blob/fce6098bf91da33673facf3ee212feb3134ddb96/issuing-book.png)
+
+
 
 
 - Returning a book with a fine
