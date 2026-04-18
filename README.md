@@ -122,7 +122,7 @@ All data loaded successfully.
 
 
 
-  ![image alt](https://github.com/code-nomad221/Library-Management-System/blob/fce6098bf91da33673facf3ee212feb3134ddb96/issuing-book.png)
+![image alt](https://github.com/code-nomad221/Library-Management-System/blob/fce6098bf91da33673facf3ee212feb3134ddb96/issuing-book.png)
 
 
 
