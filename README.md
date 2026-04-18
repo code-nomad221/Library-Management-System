@@ -159,7 +159,7 @@ members[i]->getExtraField() << endl;
 << members[i]->getMemberType() << "|"
 << members[i]->getExtraField() << endl;
 
-3. checkFine() using the wrong vector index
+- checkFine() using the wrong vector index
 Symptom: Fine checks either returned the wrong member's data or crashed with an out-of-bounds error.
 Root cause: The loop was iterating over transactions with index i, but using i to index into members — two completely separate vectors. 
 
