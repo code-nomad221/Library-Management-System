@@ -19,26 +19,27 @@ A console-based Library Management System built in C++ using Object-Oriented Pro
 
 **Project Structure**
 
+```
 lib-mang-sys/
 │
 ├── src/
-│   ├── Main.cpp          # Entry point, menu loop, user input handling
-│   ├── Library.cpp       # Core logic — issue, return, search, save, load
-│   ├── Book.cpp          # Book class implementation
-│   ├── Member.cpp        # Base Member class implementation
-│   ├── Transaction.cpp   # Transaction and fine calculation logic
+│   ├── Main.cpp          # Entry point
+│   ├── Library.cpp       # Core logic
+│   ├── Book.cpp          # Book class
+│   ├── Member.cpp        # Member class
+│   └── Transaction.cpp   # Transaction logic
 │
-├── Book.h                # Book class — title, author, genre, availability
-├── Member.h              # Abstract base class for all members
-├── Student.h             # Derived from Member — adds roll number
-├── Teacher.h             # Derived from Member — adds department
-├── Library.h             # Library class — manages all vectors and file I/O
-├── Transaction.h         # Transaction class — issue date, due date, fine
+├── Book.h
+├── Member.h
+├── Student.h
+├── Teacher.h
+├── Library.h
+├── Transaction.h
 │
-├── books.txt             # Persisted book data (auto-generated)
-├── member.txt            # Persisted member data (auto-generated)
-└── transactions.txt      # Persisted transaction data (auto-generated)
-
+├── books.txt
+├── member.txt
+└── transactions.txt
+```
 --------------------------------------------------------------------------------------------------------------------------
 
 **OOP Concepts Used**
