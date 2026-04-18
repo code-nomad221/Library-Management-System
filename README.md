@@ -186,13 +186,13 @@ members[i]->getExtraField() << endl;
 
 - checkFine() using the wrong vector index
 Symptom: Fine checks either returned the wrong member's data or crashed with an out-of-bounds error.
-Root cause: The loop was iterating over transactions with index i, but using i to index into members — two completely separate vectors. 
+Root cause: The loop was iterating over transactions with index i, but using i to index into members — two completely separate vectors. Additionally, the variable fine was computed correctly but totalFine (always 0.0) was printed instead.
 
 // Before — i is a transaction index, not a member index
 for (int i = 0; i < transactions.size(); i++) {
     if (transactions[i].getMemberid() == memberID) {
         float fine = members[i]->getFines(); // wrong member!
-        cout << totalFine;
+        cout << totalFine; // always 0.0
     }
 }
 
@@ -201,10 +201,9 @@ for (int i = 0; i < members.size(); i++) {
     if (members[i]->getMemberid() == memberID) {
         float fine = members[i]->getFines();
         cout << "Total fine: Rs" << fine << endl;
-        return totalfine;
+        return fine;
     }
 }
-
 --------------------------------------------------------------------------------------------------------------------------
 
 What I Learned
