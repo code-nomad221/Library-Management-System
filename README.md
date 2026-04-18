@@ -114,8 +114,8 @@ All data loaded successfully.
 
 --------------------------------------------------------------------------------------------------------------------------
 **Screenshots**
-
 - Main menu
+
 ![image alt](https://github.com/code-nomad221/Library-Management-System/blob/da01295a95e27e2453c634b34386fc5ddf3011cd/main%20menu.png)
 
 - Issuing a book
